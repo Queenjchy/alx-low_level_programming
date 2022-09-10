@@ -10,7 +10,6 @@ int main(void)
 
 	int ch;
 
-
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 
@@ -19,8 +18,7 @@ int main(void)
 			putchar(ch);
 		}
 		else
-		{												
-		}   
+      		{										}
 
 	}
 	putchar('\n');
