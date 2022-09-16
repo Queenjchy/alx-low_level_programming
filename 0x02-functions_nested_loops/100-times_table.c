@@ -4,7 +4,7 @@
  * print_times_table - prints a multiplication table up to param
  * @n: The number to be treated
  *
- * Return: Number matrx
+ * Return: Number matrix
  */
 void print_times_table(int n)
 {
