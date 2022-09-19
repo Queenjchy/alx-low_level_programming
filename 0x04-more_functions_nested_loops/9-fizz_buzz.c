@@ -1,41 +1,58 @@
 #include <stdio.h>
 
 /**
- * main - Fizz Buzz code
- *
- * Return: void
+ * main - function that checks for uppercase character.
+ * Return: 0
  */
 
 int main(void)
+
 {
-	int i = 1;
 
-	while (i <= 100)
-	{
-		if (i % 3 == 0 && i % 5 == 0)
-		{
-			printf("Fizz");
-		}
-		else if (i % 3 == 0)
-		{
-			printf("Fizz");
-		}
-		else if (i % 5 == 0)
-		{	
-			printf("Buzz");
-		}
-		else
-		{
-			printf("%i", i);
-		}
-		if (i != 100)
-		{
-			putchar(' ');
-		}
+		int h = 1;
 
-		i++
-	}
-	putchar('\n');
-	return (0);
+
+
+			while (h <= 100)
+
+					{
+
+								if (h % 3 == 0 && h % 5 == 0)
+
+												printf("FizzBuzz ");
+
+										else if (h % 5 == 0)
+
+													{
+
+																	if (h == 100)
+
+																					{
+
+																										printf("Buzz");
+
+																														printf("\n");
+
+																																	}
+
+																				else
+
+																									printf("Buzz ");
+
+																						}
+
+												else if (h % 3 == 0)
+
+																printf("Fizz ");
+
+														else
+
+																		printf("%d ", h);
+
+															h++;
+
+																}
+
+			return (0);
+
 }
-	
