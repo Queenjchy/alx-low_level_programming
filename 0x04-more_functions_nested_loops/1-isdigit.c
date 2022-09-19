@@ -1,17 +1,20 @@
 #include "main.h"
 
 /**
- * _isdigit _ checks if a character is digit
- * @c: carrier variable
- * Return: 1 if true, 0 if false
+ * _isdigit - checks whether a  character is a digit or not
+ * @c: tested character
+ * Return: 1 if it is, 0 otherwise
  */
 
 int _isdigit(int c)
-{
-	if (c >= '0' && c <= '9')
-		return (1);
 
-	else
+{
+
+		if ((c >= 48) && (c <= 57))
+		{
+			return (1);								}
+
+
 		return (0);
+
 }
-	
