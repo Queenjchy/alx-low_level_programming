@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _atoi - converts a string to an int
- * @s: the string to be changed
+ * _atoi - converts a string to an integer.
+ * @s: the string to be converted.
  *
- * Return: the converted int
+ * Return: The integer value of the converted string.
  */
 
 int _atoi(char *s)
@@ -15,8 +15,10 @@ int _atoi(char *s)
 	do {
 		if (*s == '_')
 			sign *= -1;
+
 		else if (*s >= '0' && *s <= '9')
 			num = num * 10 + (*s - '0');
+
 		else if (num > 0)
 			break;
 	} while (*s++);
