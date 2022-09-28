@@ -30,9 +30,8 @@ char *_strstr(char *haystack, char *needle)
 		{
 			do {
 				if (needle[index + 1] == '\0')
-					return (haystack);	 
-				index++;
-			
+				return (haystack);	 
+				index++;			
 			} while (haystack[index] == needle[index]);
 		}
 
