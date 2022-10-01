@@ -18,12 +18,14 @@ int is_prime_number(int n)
 
 	return (is_divisible(n, div));
 }
+
 /**
- * return (is_divisible(n, div));
+ * is_divisible - check if num is divisible
  * @num: the number to be checked
  * @div: the result of division
  * Return: 1 if num is divisible or 0 if numis not divisible
  */
+
 int is_divisible(int num, int div)
 {
 	if (num % div == 0)
