@@ -3,7 +3,6 @@
 #include <stdio.h>
 
 /**
- *
  * str_concat - concatenates two strings of any size
  * @s1: the first string to concatenate
  * @s2: the second string to concatenate
@@ -50,4 +49,4 @@ char *str_concat(char *s1, char *s2)
 
 	s[k] = '\0';
 	return (s);
-}	
+}
